@@ -1,3 +1,6 @@
+//Function calculates change due from total price and cash provided, then returns a list of change to be provided to customer based on cash available in the drawer.
+//cash in the drawer (cid) is currently provided as an argument for testing purposes, but could easily be updated to provide a self-balancing register system by initializing the array outside of the function. 
+
 function checkCashRegister(price, cash, cid) {
     //variables
     const value = {
